@@ -1,5 +1,9 @@
 package diassemana;
 import java.util.Scanner;
+/**
+ * @author Hugo
+ *@version 22/02/2022
+ */
 //Inicio del programa y declaración de variables:
 public class DiasSemana {
 public static void main(String[] args) {
@@ -27,6 +31,7 @@ System.out.println(diaSemana);
 /**
  * @param numeroDia
  * @return
+ * Este método toma como parámetro un número y devuelve su día de la semana
  */
 private static String decisionDia(int numeroDia) {
 	String diaSemana;
